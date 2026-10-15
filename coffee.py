@@ -1,5 +1,8 @@
 #coffee shop simulator
 
+#current day number
+day = 1
+
 #create an empty sales list
 sales = []
 
