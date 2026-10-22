@@ -8,6 +8,12 @@ class World:
         # Print the greeting
         print(self.greeting)
 
+    # Delete the class
+    def __del__(self):
+        print("I'm gone!")
+
 # Use the class World to create a world object named w
 w = World()
 
+print(World.greeting)
+del(w)
